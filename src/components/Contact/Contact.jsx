@@ -27,6 +27,7 @@ const Contact = () => {
       <div class="container">
         <h2 data-aos="fade-down"
      data-aos-easing="linear"
+     data-aos-once="true"
      data-aos-duration="1500"
 >Contact <span>Us</span></h2>
         <p>"Swipe left to unlock a conversation with the future – our Contact page is a portal where your fingertips meet our digital concierge for a cosmic chat experience beyond the touchscreen!"</p>
@@ -40,6 +41,7 @@ const Contact = () => {
           <div class="contact-info-item">
             <div data-aos="fade-up"
      data-aos-easing="linear"
+     data-aos-once="true"
      data-aos-duration="1500"
  class="contact-info-icon">
               <i> <ImLocation/></i>
@@ -53,6 +55,7 @@ const Contact = () => {
           
           <div class="contact-info-item">
             <div data-aos="fade-right"
+               data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500"
  class="contact-info-icon">
@@ -67,6 +70,7 @@ const Contact = () => {
           
           <div class="contact-info-item">
             <div data-aos="fade-left"
+               data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500"
  class="contact-info-icon">
@@ -81,6 +85,7 @@ const Contact = () => {
         </div>
         
         <div data-aos="fade-down"
+           data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500"
  class="contact-form">

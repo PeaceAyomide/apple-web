@@ -22,10 +22,12 @@ const Appletechs = () => {
   return (
     <section class="portfolio" id="portfolio">
 <h2 data-aos="fade-down"
+   data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500"  class="heading"><span>MODELS</span></h2>
 <div class="portfolio-container">
 <div data-aos="fade-left"
+   data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500" class="portfolio-box">
 <img  src={IPHONE14PRO} alt="" />
@@ -37,6 +39,7 @@ const Appletechs = () => {
 </div> 
 
 <div data-aos="fade-right"
+   data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500" class="portfolio-box">
     <img  src={MACBOOK}   alt="" />
@@ -48,6 +51,7 @@ const Appletechs = () => {
     </div>  
 
     <div data-aos="fade-up"
+       data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500" class="portfolio-box">
         <img  src={IWATCH} alt="" />
@@ -58,6 +62,7 @@ const Appletechs = () => {
         </div>
         </div>  
         <div data-aos="fade-right"
+           data-aos-once="true"
      data-aos-easing="linear"
      data-aos-duration="1500" class="portfolio-box">
         <img  src={APPLEVSIONPRO} alt="" />

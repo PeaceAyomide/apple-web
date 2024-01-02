@@ -20,6 +20,7 @@ const Footer = () => {
   return (
     
     <footer data-aos="fade-down"
+       data-aos-once="true"
     data-aos-easing="linear"
     data-aos-duration="1500"
 class="footer">

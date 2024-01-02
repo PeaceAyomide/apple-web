@@ -27,16 +27,16 @@ const Hero = () => {
       <div className='home-content'>
         <h3
           data-aos='fade-down'
-          
+           data-aos-once="true"
           data-aos-easing='linear'
           data-aos-duration='1500'
         >
           What's New
         </h3>
         <h1 data-aos='fade-right'
-          
+           data-aos-once="true"
           >iPhone 14</h1>
-        <p data-aos='zoom-in'
+        <p data-aos='zoom-in'  data-aos-once="true"
           >
           Introducing the iPhone 14, where innovation and sophistication
           converge to redefine the smartphone experience. With its sleek
@@ -46,6 +46,7 @@ const Hero = () => {
         </p>
         <br />
         <button
+          data-aos='zoom-in'  data-aos-once="true"
           onClick={handlePurchaseClick}
           className='btn'
         >
@@ -61,6 +62,7 @@ const Hero = () => {
         </button>
       </div>
       <div data-aos='fade-right' 
+         data-aos-once="true"
         className='home-img'>
         <img src={Iphone} alt='' />
       </div>
